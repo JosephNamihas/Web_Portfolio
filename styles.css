@@ -2,9 +2,9 @@
     box-sizing: border-box;
 }
 
-html {
-    background-image: linear-gradient(to right, #3d5a80, #98c1d9, #e0fbfc);
-}
+h1 { color: #e0fbfc; font-family: 'Lato', sans-serif; font-weight: bold; }
+h2 { color: #e0fbfc; font-family: 'Lato', sans-serif; font-weight: bold}
+p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: bold; }
 
 /*--------------------- Navbar /*--------------------- */
 
@@ -33,17 +33,17 @@ html {
     color: #e0fbfc;
 }
 
-/*--------------------- Jumbotron ---------------------*/
+/*--------------------- Jumbotron / About Me ---------------------*/
 
 .jumbotron-fluid {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20vh;
+    height: 60vh;
+    background-image: linear-gradient(to right, #466894, #547db3, #6291cf);
+    color: #e0fbfc;
+
 }
-
-/*--------------------- About Me ---------------------*/
-
 
 /*--------------------- Projects ---------------------*/
 
