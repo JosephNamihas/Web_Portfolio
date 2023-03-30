@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(to right, #3d5a80, #98c1d9, #e0fbfc);
+}
+
+/*--------------------- Navbar /*--------------------- */
+
+.navbar {
+    background-color: #293241;
+}
+
+.navbar a {
+    color: #e0fbfc;
+}
+
+.navbar-brand {
+    margin-left: 2%;
+}
+
+.navbar a:hover {
+    color:  #ee6c4d;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+/* Hamburger Menu */
+.navbar-toggler-icon {
+    color: #e0fbfc;
+}
+
+/*--------------------- Jumbotron ---------------------*/
+
+.jumbotron-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+/*--------------------- About Me ---------------------*/
+
+
+/*--------------------- Projects ---------------------*/
+
+/*--------------------- Contact ---------------------*/
+
+
+/*--------------------- Footer ---------------------*/

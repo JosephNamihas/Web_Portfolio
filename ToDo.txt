@@ -1,0 +1,9 @@
+Colour Scheme
+#3d5a80, #98c1d9, #e0fbfc, #ee6c4d, #293241
+
+
+Links
+https://github.com/JosephNamihas/Cocktail-O-Clock
+https://josephnamihas.github.io/Cocktail-O-Clock/
+
+https://thelearninglab-resilient-sunflower.netlify.app/
