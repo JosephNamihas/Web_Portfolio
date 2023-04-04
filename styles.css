@@ -15,6 +15,7 @@ p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: 
 
 .navbar a {
     color: #e0fbfc;
+    font-weight: bold;
 }
 
 .navbar-brand {
@@ -22,8 +23,10 @@ p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: 
 }
 
 .navbar a:hover {
-    color:  #ee6c4d;
+    color:  #FF5349;
 }
+
+/* add visited colours */
 
 .navbar-nav {
     text-align: right;
@@ -47,7 +50,7 @@ p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: 
     height: 60vh;
     background-image: linear-gradient(to right, #466894, #547db3, #6291cf);
     color: #e0fbfc;
-    box-shadow: 0px 0px 10px 0px #293241;
+    border: 2px solid black;
 }
 
 .photo {
@@ -64,17 +67,18 @@ p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: 
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #ee6c4d;
-
-    border: 2px solid black
+    background-color: #FF5349;
 }
 
 .project-tile {
     border: 1px solid black;
-    box-shadow: 0px 10px 10px 0px #293241;
-
+    box-shadow: 0px 10px 5px 5px #293241;
 }
 
+.project-tile:hover {
+    border: 1px solid #466894;
+}
+    
 
 
 /*--------------------- Contact ---------------------*/
