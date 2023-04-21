@@ -3,7 +3,7 @@
 }
 
 h1 { color: #e0fbfc; font-family: 'Lato', sans-serif; font-weight: bold; }
-h2 { color: #e0fbfc; font-family: 'Lato', sans-serif; font-weight: bold}
+h2 { color: #e0fbfc; font-family: 'Lato', sans-serif; font-weight: bold; }
 p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: bold; }
 
 /*--------------------- Navbar /*--------------------- */
@@ -43,7 +43,7 @@ p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: 
     margin-left: 11%;
 }
 
-.jumbotron-fluid {
+.dev-jumbo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,6 +56,10 @@ p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: 
 .photo {
     margin-right: 2.5%;
     border: 2px solid black;
+}
+
+.container p {
+
 }
 
 /*--------------------- Projects ---------------------*/
@@ -78,7 +82,19 @@ p { color: #293241; font-family: 'Lucida Sans', Arial, sans-serif; font-weight: 
 .project-tile:hover {
     border: 1px solid #466894;
 }
-    
+
+
+/*--------------------- Technologies ---------------------*/
+
+.technologies {
+    display: flex;
+    background-color: #293241;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    color: #e0fbfc;
+    border: 2px solid black;
+}
 
 
 /*--------------------- Contact ---------------------*/
