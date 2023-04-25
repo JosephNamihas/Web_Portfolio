@@ -27,14 +27,17 @@ h2 { color: #e0fbfc; font-family: 'Lato', sans-serif; font-weight: bold; }
 
 /* add visited colours */
 
-.navbar-nav {
-    text-align: right;
+#navbarNav {
+    justify-content: right;
+    margin-right: 2%;
 }
 
 /* Hamburger Menu */
 .navbar-toggler-icon {
     color: #e0fbfc;
 }
+
+
 
 /*--------------------- Jumbotron / About Me ---------------------*/
 
@@ -54,7 +57,6 @@ h2 { color: #e0fbfc; font-family: 'Lato', sans-serif; font-weight: bold; }
 
 .photo {
     margin-right: 2.5%;
-    border: 2px solid black;
 }
 
 /*--------------------- Projects ---------------------*/
